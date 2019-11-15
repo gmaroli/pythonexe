@@ -31,10 +31,11 @@ These steps are created with Python 3.6.5 and IDE used in PyCharm
 	    executables = executables
 	)
 	```
-Notes: 
-	Python_Script: name of the python script along with .py extension that needs to be converted to a exe
-	enter each of the imported packages from the python script under the packages section (example: packages = ["idna", "os", "sys"])
-	Provide any name , number and description under setup section above
+- Notes:
+	- Python_Script: name of the python script along with .py extension that needs to be converted to a exe
+	- Enter each of the imported packages from the python script under the packages section (example: packages = ["idna", "os", "sys"])
+	- Provide any name , number and description under setup section above
+	
 7. open the terminal in Pycharm and enter the command: python setup.py build
 8. under your project directoy a new folder will be created 'build'
 9. exe file will be created under this build folder
